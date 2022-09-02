@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.brand-name {
+    text-align: center;
+    color: #ff7200;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    list-style-type: none;
+    height: 50px;
+    width: 100%;
+
+}
+
+ul {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.navbar-menu a {
+    padding: 20px;
+    text-decoration: none;
+
+    font-size: 1.5rem;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.container {
+    background-color: #8a8d8a;
+    height: 100vh;
+    text-align: center;
+
+}
+
+#home {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    text-align: left;
+    padding-top: 225px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 6.2px;
+    line-height: 40px;
+}
+
+
+#skills {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    text-align: right;
+    padding-top: 225px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 6.2px;
+    line-height: 40px;
+}
+
+#about {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+    padding-top: 225px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 6.2px;
+    line-height: 40px;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    left: 40px;
+}
+.icons ion-icons{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    margin-top: 50px;
+    text-align: left;
+    left: 40px;
+}
+.container span{
+    color: #ff7200;
+    font-size: 60px;
+}
+.footer{
+    margin: 0;
+    padding: 0;
+    width: 101.5%;
+    height: 40px;
+    background-color: gray;
+    overflow: auto;
+    
+}
